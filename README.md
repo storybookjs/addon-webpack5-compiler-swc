@@ -22,4 +22,4 @@ export default config;
 
 ## Configuration
 
-Please go to https://storybook.js.org/docs/api/main-config-swc#swcoptions for more information about how to configure SWC.
+Please go to https://storybook.js.org/docs/api/main-config-swc for more information about how to configure SWC.
