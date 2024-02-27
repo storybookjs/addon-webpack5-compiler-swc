@@ -5,19 +5,7 @@ This addon adds SWC support to Storybook's webpack5 compiler. It adds the swc-lo
 ## Installation
 
 ```sh
-npm install --save-dev @storybook/addon-webpack5-compiler-swc
-```
-
-## Usage
-
-```js
-// .storybook/main.js
-
-const config = {
-  addons: ["@storybook/addon-webpack5-compiler-swc"],
-};
-
-export default config;
+npx storybook@latest add @storybook/addon-webpack5-compiler-swc
 ```
 
 ## Configuration
