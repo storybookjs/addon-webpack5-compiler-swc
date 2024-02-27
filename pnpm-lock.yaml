@@ -23,8 +23,8 @@ devDependencies:
     specifier: next
     version: 8.0.0-alpha.6
   auto:
-    specifier: ^11.0.4
-    version: 11.0.4(@swc/core@1.3.102)(@types/node@20.10.6)(typescript@5.3.3)
+    specifier: ^11.1.1
+    version: 11.1.1(@swc/core@1.3.102)(@types/node@20.10.6)(typescript@5.3.3)
   tsup:
     specifier: ^8.0.1
     version: 8.0.1(@swc/core@1.3.102)(typescript@5.3.3)
@@ -33,17 +33,17 @@ devDependencies:
     version: 5.3.3
   webpack:
     specifier: ^5.89.0
-    version: 5.89.0(@swc/core@1.3.102)(esbuild@0.19.11)
+    version: 5.89.0(@swc/core@1.3.102)(esbuild@0.18.20)
 
 packages:
 
-  /@auto-it/bot-list@11.0.4:
-    resolution: {integrity: sha512-f3w9UZ655MLiELUQP28K9Gceptf2vvKdKVRzh2b2ST+PG/srmoxCnHgE/TO9afW7NiuUA1h+hQVyIb0eQ9VSfQ==}
+  /@auto-it/bot-list@11.1.1:
+    resolution: {integrity: sha512-uKZ08KC9FUjMBYqiizZ3VlXyEAeRHEAJaeNMqQFPi0jFKRtX/Dm4tAhDXqfQeuOuAsUHNh5Pp+4zOX2RmTPZaA==}
     engines: {node: '>=10.x'}
     dev: true
 
-  /@auto-it/core@11.0.4(@swc/core@1.3.102)(@types/node@20.10.6)(typescript@5.3.3):
-    resolution: {integrity: sha512-oYIByeGeuiM0MhWibbj3Y4Vj8p5Kt1n4g0hKL7Zu7oFlKmAjsZlwbH4z0wEjVTdK2+Eqg2/I1Dj/GgkiSriXgg==}
+  /@auto-it/core@11.1.1(@swc/core@1.3.102)(@types/node@20.10.6)(typescript@5.3.3):
+    resolution: {integrity: sha512-CIQYqJG/pXmWsQjgbjMF6qnwAu7Klrpm5fWHrXpzIEq/3qQfgGmTkauuJRSz9bM5z6pHHCjT1eypVV/EDj9ijg==}
     peerDependencies:
       '@types/node': '*'
       typescript: '>=2.7'
@@ -51,7 +51,7 @@ packages:
       '@types/node':
         optional: true
     dependencies:
-      '@auto-it/bot-list': 11.0.4
+      '@auto-it/bot-list': 11.1.1
       '@endemolshinegroup/cosmiconfig-typescript-loader': 3.0.2(cosmiconfig@7.0.0)(typescript@5.3.3)
       '@octokit/core': 3.6.0
       '@octokit/plugin-enterprise-compatibility': 1.3.0
@@ -100,11 +100,11 @@ packages:
       - supports-color
     dev: true
 
-  /@auto-it/npm@11.0.4(@swc/core@1.3.102)(@types/node@20.10.6)(typescript@5.3.3):
-    resolution: {integrity: sha512-7sKGswdhQZ0/EryFhMU8DZV/hKZSZTOhJnNTXBtCGRk7oLjRHjt6XVOWCMOMOCNO/wVn5k5r52DbhAy5V4i0GQ==}
+  /@auto-it/npm@11.1.1(@swc/core@1.3.102)(@types/node@20.10.6)(typescript@5.3.3):
+    resolution: {integrity: sha512-I7qWPdU2goCmqdvAEpa6yGwQmzx5YXEsZywqs6uTQXIDuGbFzNt/7jwJNt8p/MNE8M0ra8FJ05eHavBLFZuEfg==}
     dependencies:
-      '@auto-it/core': 11.0.4(@swc/core@1.3.102)(@types/node@20.10.6)(typescript@5.3.3)
-      '@auto-it/package-json-utils': 11.0.4
+      '@auto-it/core': 11.1.1(@swc/core@1.3.102)(@types/node@20.10.6)(typescript@5.3.3)
+      '@auto-it/package-json-utils': 11.1.1
       await-to-js: 3.0.0
       endent: 2.1.0
       env-ci: 5.5.0
@@ -126,19 +126,19 @@ packages:
       - typescript
     dev: true
 
-  /@auto-it/package-json-utils@11.0.4:
-    resolution: {integrity: sha512-Y84CW2QSL1TXkc4cVajODhRFFixDhOGX4JBS/ic3TgeJ94h6QH0Q8so+FxzPwBDWGXmUdLsj8fY/A3n0X09lqA==}
+  /@auto-it/package-json-utils@11.1.1:
+    resolution: {integrity: sha512-hk6wKuP7fPonXnP/blPHYS4iQaKZ6s+dVBRPSW7pjWZv6H/A131mWVSQC59nhe8lqZhbQ2MrDH4xxfhYnq21sA==}
     engines: {node: '>=10.x'}
     dependencies:
       parse-author: 2.0.0
       parse-github-url: 1.0.2
     dev: true
 
-  /@auto-it/released@11.0.4(@swc/core@1.3.102)(@types/node@20.10.6)(typescript@5.3.3):
-    resolution: {integrity: sha512-BfzCr+rJvONgw5EtsmTfoPtjm7C6Yo+vKDiXtI82EctLfUuADV/wCE/zj5e1nACsELpqhqWfgLySvDu1n6bn6g==}
+  /@auto-it/released@11.1.1(@swc/core@1.3.102)(@types/node@20.10.6)(typescript@5.3.3):
+    resolution: {integrity: sha512-iRUebl2q5V7hFEgScGVUMUVoOXrFFi5O280hUCpZxmd6kkG2v7Kl+Weii5zKpd7YSqG0HibJCD+LVwPClAfrCA==}
     dependencies:
-      '@auto-it/bot-list': 11.0.4
-      '@auto-it/core': 11.0.4(@swc/core@1.3.102)(@types/node@20.10.6)(typescript@5.3.3)
+      '@auto-it/bot-list': 11.1.1
+      '@auto-it/core': 11.1.1(@swc/core@1.3.102)(@types/node@20.10.6)(typescript@5.3.3)
       deepmerge: 4.3.1
       fp-ts: 2.16.1
       io-ts: 2.2.21(fp-ts@2.16.1)
@@ -152,10 +152,10 @@ packages:
       - typescript
     dev: true
 
-  /@auto-it/version-file@11.0.4(@swc/core@1.3.102)(@types/node@20.10.6)(typescript@5.3.3):
-    resolution: {integrity: sha512-esKwslQPsPjFC96m0lI/MJI12OFjH92KXtVaQEguGIIXAhs7iop9+y5vLXjOtgNOFVBvk/FKTFItq2mV587aiA==}
+  /@auto-it/version-file@11.1.1(@swc/core@1.3.102)(@types/node@20.10.6)(typescript@5.3.3):
+    resolution: {integrity: sha512-KHKunip2nXWKd7zJ0hdALojY+E6sTdmxuq9SXYgTMXUcZw2BtxunVSK1hb2wmS6iUH4CCILk12dHksAO5BFzeQ==}
     dependencies:
-      '@auto-it/core': 11.0.4(@swc/core@1.3.102)(@types/node@20.10.6)(typescript@5.3.3)
+      '@auto-it/core': 11.1.1(@swc/core@1.3.102)(@types/node@20.10.6)(typescript@5.3.3)
       fp-ts: 2.16.1
       io-ts: 2.2.21(fp-ts@2.16.1)
       semver: 7.5.4
@@ -294,7 +294,7 @@ packages:
       lodash.get: 4.4.2
       make-error: 1.3.6
       ts-node: 9.1.1(typescript@5.3.3)
-      tslib: 2.1.0
+      tslib: 2.6.2
     transitivePeerDependencies:
       - typescript
     dev: true
@@ -305,6 +305,7 @@ packages:
     cpu: [ppc64]
     os: [aix]
     requiresBuild: true
+    dev: true
     optional: true
 
   /@esbuild/android-arm64@0.18.20:
@@ -313,7 +314,6 @@ packages:
     cpu: [arm64]
     os: [android]
     requiresBuild: true
-    dev: false
     optional: true
 
   /@esbuild/android-arm64@0.19.11:
@@ -322,6 +322,7 @@ packages:
     cpu: [arm64]
     os: [android]
     requiresBuild: true
+    dev: true
     optional: true
 
   /@esbuild/android-arm@0.18.20:
@@ -330,7 +331,6 @@ packages:
     cpu: [arm]
     os: [android]
     requiresBuild: true
-    dev: false
     optional: true
 
   /@esbuild/android-arm@0.19.11:
@@ -339,6 +339,7 @@ packages:
     cpu: [arm]
     os: [android]
     requiresBuild: true
+    dev: true
     optional: true
 
   /@esbuild/android-x64@0.18.20:
@@ -347,7 +348,6 @@ packages:
     cpu: [x64]
     os: [android]
     requiresBuild: true
-    dev: false
     optional: true
 
   /@esbuild/android-x64@0.19.11:
@@ -356,6 +356,7 @@ packages:
     cpu: [x64]
     os: [android]
     requiresBuild: true
+    dev: true
     optional: true
 
   /@esbuild/darwin-arm64@0.18.20:
@@ -364,7 +365,6 @@ packages:
     cpu: [arm64]
     os: [darwin]
     requiresBuild: true
-    dev: false
     optional: true
 
   /@esbuild/darwin-arm64@0.19.11:
@@ -373,6 +373,7 @@ packages:
     cpu: [arm64]
     os: [darwin]
     requiresBuild: true
+    dev: true
     optional: true
 
   /@esbuild/darwin-x64@0.18.20:
@@ -381,7 +382,6 @@ packages:
     cpu: [x64]
     os: [darwin]
     requiresBuild: true
-    dev: false
     optional: true
 
   /@esbuild/darwin-x64@0.19.11:
@@ -390,6 +390,7 @@ packages:
     cpu: [x64]
     os: [darwin]
     requiresBuild: true
+    dev: true
     optional: true
 
   /@esbuild/freebsd-arm64@0.18.20:
@@ -398,7 +399,6 @@ packages:
     cpu: [arm64]
     os: [freebsd]
     requiresBuild: true
-    dev: false
     optional: true
 
   /@esbuild/freebsd-arm64@0.19.11:
@@ -407,6 +407,7 @@ packages:
     cpu: [arm64]
     os: [freebsd]
     requiresBuild: true
+    dev: true
     optional: true
 
   /@esbuild/freebsd-x64@0.18.20:
@@ -415,7 +416,6 @@ packages:
     cpu: [x64]
     os: [freebsd]
     requiresBuild: true
-    dev: false
     optional: true
 
   /@esbuild/freebsd-x64@0.19.11:
@@ -424,6 +424,7 @@ packages:
     cpu: [x64]
     os: [freebsd]
     requiresBuild: true
+    dev: true
     optional: true
 
   /@esbuild/linux-arm64@0.18.20:
@@ -432,7 +433,6 @@ packages:
     cpu: [arm64]
     os: [linux]
     requiresBuild: true
-    dev: false
     optional: true
 
   /@esbuild/linux-arm64@0.19.11:
@@ -441,6 +441,7 @@ packages:
     cpu: [arm64]
     os: [linux]
     requiresBuild: true
+    dev: true
     optional: true
 
   /@esbuild/linux-arm@0.18.20:
@@ -449,7 +450,6 @@ packages:
     cpu: [arm]
     os: [linux]
     requiresBuild: true
-    dev: false
     optional: true
 
   /@esbuild/linux-arm@0.19.11:
@@ -458,6 +458,7 @@ packages:
     cpu: [arm]
     os: [linux]
     requiresBuild: true
+    dev: true
     optional: true
 
   /@esbuild/linux-ia32@0.18.20:
@@ -466,7 +467,6 @@ packages:
     cpu: [ia32]
     os: [linux]
     requiresBuild: true
-    dev: false
     optional: true
 
   /@esbuild/linux-ia32@0.19.11:
@@ -475,6 +475,7 @@ packages:
     cpu: [ia32]
     os: [linux]
     requiresBuild: true
+    dev: true
     optional: true
 
   /@esbuild/linux-loong64@0.18.20:
@@ -483,7 +484,6 @@ packages:
     cpu: [loong64]
     os: [linux]
     requiresBuild: true
-    dev: false
     optional: true
 
   /@esbuild/linux-loong64@0.19.11:
@@ -492,6 +492,7 @@ packages:
     cpu: [loong64]
     os: [linux]
     requiresBuild: true
+    dev: true
     optional: true
 
   /@esbuild/linux-mips64el@0.18.20:
@@ -500,7 +501,6 @@ packages:
     cpu: [mips64el]
     os: [linux]
     requiresBuild: true
-    dev: false
     optional: true
 
   /@esbuild/linux-mips64el@0.19.11:
@@ -509,6 +509,7 @@ packages:
     cpu: [mips64el]
     os: [linux]
     requiresBuild: true
+    dev: true
     optional: true
 
   /@esbuild/linux-ppc64@0.18.20:
@@ -517,7 +518,6 @@ packages:
     cpu: [ppc64]
     os: [linux]
     requiresBuild: true
-    dev: false
     optional: true
 
   /@esbuild/linux-ppc64@0.19.11:
@@ -526,6 +526,7 @@ packages:
     cpu: [ppc64]
     os: [linux]
     requiresBuild: true
+    dev: true
     optional: true
 
   /@esbuild/linux-riscv64@0.18.20:
@@ -534,7 +535,6 @@ packages:
     cpu: [riscv64]
     os: [linux]
     requiresBuild: true
-    dev: false
     optional: true
 
   /@esbuild/linux-riscv64@0.19.11:
@@ -543,6 +543,7 @@ packages:
     cpu: [riscv64]
     os: [linux]
     requiresBuild: true
+    dev: true
     optional: true
 
   /@esbuild/linux-s390x@0.18.20:
@@ -551,7 +552,6 @@ packages:
     cpu: [s390x]
     os: [linux]
     requiresBuild: true
-    dev: false
     optional: true
 
   /@esbuild/linux-s390x@0.19.11:
@@ -560,6 +560,7 @@ packages:
     cpu: [s390x]
     os: [linux]
     requiresBuild: true
+    dev: true
     optional: true
 
   /@esbuild/linux-x64@0.18.20:
@@ -568,7 +569,6 @@ packages:
     cpu: [x64]
     os: [linux]
     requiresBuild: true
-    dev: false
     optional: true
 
   /@esbuild/linux-x64@0.19.11:
@@ -577,6 +577,7 @@ packages:
     cpu: [x64]
     os: [linux]
     requiresBuild: true
+    dev: true
     optional: true
 
   /@esbuild/netbsd-x64@0.18.20:
@@ -585,7 +586,6 @@ packages:
     cpu: [x64]
     os: [netbsd]
     requiresBuild: true
-    dev: false
     optional: true
 
   /@esbuild/netbsd-x64@0.19.11:
@@ -594,6 +594,7 @@ packages:
     cpu: [x64]
     os: [netbsd]
     requiresBuild: true
+    dev: true
     optional: true
 
   /@esbuild/openbsd-x64@0.18.20:
@@ -602,7 +603,6 @@ packages:
     cpu: [x64]
     os: [openbsd]
     requiresBuild: true
-    dev: false
     optional: true
 
   /@esbuild/openbsd-x64@0.19.11:
@@ -611,6 +611,7 @@ packages:
     cpu: [x64]
     os: [openbsd]
     requiresBuild: true
+    dev: true
     optional: true
 
   /@esbuild/sunos-x64@0.18.20:
@@ -619,7 +620,6 @@ packages:
     cpu: [x64]
     os: [sunos]
     requiresBuild: true
-    dev: false
     optional: true
 
   /@esbuild/sunos-x64@0.19.11:
@@ -628,6 +628,7 @@ packages:
     cpu: [x64]
     os: [sunos]
     requiresBuild: true
+    dev: true
     optional: true
 
   /@esbuild/win32-arm64@0.18.20:
@@ -636,7 +637,6 @@ packages:
     cpu: [arm64]
     os: [win32]
     requiresBuild: true
-    dev: false
     optional: true
 
   /@esbuild/win32-arm64@0.19.11:
@@ -645,6 +645,7 @@ packages:
     cpu: [arm64]
     os: [win32]
     requiresBuild: true
+    dev: true
     optional: true
 
   /@esbuild/win32-ia32@0.18.20:
@@ -653,7 +654,6 @@ packages:
     cpu: [ia32]
     os: [win32]
     requiresBuild: true
-    dev: false
     optional: true
 
   /@esbuild/win32-ia32@0.19.11:
@@ -662,6 +662,7 @@ packages:
     cpu: [ia32]
     os: [win32]
     requiresBuild: true
+    dev: true
     optional: true
 
   /@esbuild/win32-x64@0.18.20:
@@ -670,7 +671,6 @@ packages:
     cpu: [x64]
     os: [win32]
     requiresBuild: true
-    dev: false
     optional: true
 
   /@esbuild/win32-x64@0.19.11:
@@ -679,6 +679,7 @@ packages:
     cpu: [x64]
     os: [win32]
     requiresBuild: true
+    dev: true
     optional: true
 
   /@isaacs/cliui@8.0.2:
@@ -1551,15 +1552,15 @@ packages:
     engines: {node: '>=0.8'}
     dev: true
 
-  /auto@11.0.4(@swc/core@1.3.102)(@types/node@20.10.6)(typescript@5.3.3):
-    resolution: {integrity: sha512-jDe95fpOHZXRDe0HJMH1FvTrU0f3rXbee0eqNIAR2mB9EcdiWQTj1aF56R/xPyGLxF9y3WXzu38DgiIX9sjoDg==}
+  /auto@11.1.1(@swc/core@1.3.102)(@types/node@20.10.6)(typescript@5.3.3):
+    resolution: {integrity: sha512-mOucdDWMjtuBDH8phH9Z0s1dD4uFrFIhYQ/Zh4wCH2uB3eEf8qZbu20DLOWCfj1zEUU2gxqVAuqJD4OyLWvaSQ==}
     engines: {node: '>=10.x'}
     hasBin: true
     dependencies:
-      '@auto-it/core': 11.0.4(@swc/core@1.3.102)(@types/node@20.10.6)(typescript@5.3.3)
-      '@auto-it/npm': 11.0.4(@swc/core@1.3.102)(@types/node@20.10.6)(typescript@5.3.3)
-      '@auto-it/released': 11.0.4(@swc/core@1.3.102)(@types/node@20.10.6)(typescript@5.3.3)
-      '@auto-it/version-file': 11.0.4(@swc/core@1.3.102)(@types/node@20.10.6)(typescript@5.3.3)
+      '@auto-it/core': 11.1.1(@swc/core@1.3.102)(@types/node@20.10.6)(typescript@5.3.3)
+      '@auto-it/npm': 11.1.1(@swc/core@1.3.102)(@types/node@20.10.6)(typescript@5.3.3)
+      '@auto-it/released': 11.1.1(@swc/core@1.3.102)(@types/node@20.10.6)(typescript@5.3.3)
+      '@auto-it/version-file': 11.1.1(@swc/core@1.3.102)(@types/node@20.10.6)(typescript@5.3.3)
       await-to-js: 3.0.0
       chalk: 4.1.2
       command-line-application: 0.10.1
@@ -1961,7 +1962,6 @@ packages:
       '@esbuild/win32-arm64': 0.18.20
       '@esbuild/win32-ia32': 0.18.20
       '@esbuild/win32-x64': 0.18.20
-    dev: false
 
   /esbuild@0.19.11:
     resolution: {integrity: sha512-HJ96Hev2hX/6i5cDVwcqiJBBtuo9+FeIJOtZ9W1kA5M6AMJRHUZlpYZ1/SbEwtO0ioNAW8rUooVpC/WehY2SfA==}
@@ -1992,6 +1992,7 @@ packages:
       '@esbuild/win32-arm64': 0.19.11
       '@esbuild/win32-ia32': 0.19.11
       '@esbuild/win32-x64': 0.19.11
+    dev: true
 
   /escalade@3.1.1:
     resolution: {integrity: sha512-k0er2gUkLf8O0zKJiAhmkTnJlTvINGv7ygDNPbeIsX/TJjGJZHuh9B2UxbsaEkmlEo9MfhrSzmhIlhRlI2GXnw==}
@@ -3238,7 +3239,7 @@ packages:
       webpack: '>=2'
     dependencies:
       '@swc/core': 1.3.102
-      webpack: 5.89.0(@swc/core@1.3.102)(esbuild@0.19.11)
+      webpack: 5.89.0(@swc/core@1.3.102)(esbuild@0.18.20)
     dev: false
 
   /table-layout@1.0.2:
@@ -3268,7 +3269,7 @@ packages:
       supports-hyperlinks: 2.3.0
     dev: true
 
-  /terser-webpack-plugin@5.3.10(@swc/core@1.3.102)(esbuild@0.19.11)(webpack@5.89.0):
+  /terser-webpack-plugin@5.3.10(@swc/core@1.3.102)(esbuild@0.18.20)(webpack@5.89.0):
     resolution: {integrity: sha512-BKFPWlPDndPs+NGGCr1U59t0XScL5317Y0UReNrHaw9/FwhPENlq6bfgs+4yPfyP51vqC1bQ4rp1EfXW5ZSH9w==}
     engines: {node: '>= 10.13.0'}
     peerDependencies:
@@ -3286,12 +3287,12 @@ packages:
     dependencies:
       '@jridgewell/trace-mapping': 0.3.20
       '@swc/core': 1.3.102
-      esbuild: 0.19.11
+      esbuild: 0.18.20
       jest-worker: 27.5.1
       schema-utils: 3.3.0
       serialize-javascript: 6.0.1
       terser: 5.26.0
-      webpack: 5.89.0(@swc/core@1.3.102)(esbuild@0.19.11)
+      webpack: 5.89.0(@swc/core@1.3.102)(esbuild@0.18.20)
 
   /terser@5.26.0:
     resolution: {integrity: sha512-dytTGoE2oHgbNV9nTzgBEPaqAWvcJNl66VZ0BkJqlvp71IjO8CxdBx/ykCNb47cLnCmCvRZ6ZR0tLkqvZCdVBQ==}
@@ -3548,7 +3549,7 @@ packages:
     resolution: {integrity: sha512-/DyMEOrDgLKKIG0fmvtz+4dUX/3Ghozwgm6iPp8KRhvn+eQf9+Q7GWxVNMk3+uCPWfdXYC4ExGBckIXdFEfH1w==}
     engines: {node: '>=10.13.0'}
 
-  /webpack@5.89.0(@swc/core@1.3.102)(esbuild@0.19.11):
+  /webpack@5.89.0(@swc/core@1.3.102)(esbuild@0.18.20):
     resolution: {integrity: sha512-qyfIC10pOr70V+jkmud8tMfajraGCZMBWJtrmuBymQKCrLTRejBI8STDp1MCyZu/QTdZSeacCQYpYNQVOzX5kw==}
     engines: {node: '>=10.13.0'}
     hasBin: true
@@ -3579,7 +3580,7 @@ packages:
       neo-async: 2.6.2
       schema-utils: 3.3.0
       tapable: 2.2.1
-      terser-webpack-plugin: 5.3.10(@swc/core@1.3.102)(esbuild@0.19.11)(webpack@5.89.0)
+      terser-webpack-plugin: 5.3.10(@swc/core@1.3.102)(esbuild@0.18.20)(webpack@5.89.0)
       watchpack: 2.4.0
       webpack-sources: 3.2.3
     transitivePeerDependencies:
