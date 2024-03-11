@@ -30,9 +30,10 @@
     "./preset": "./dist/preset.cjs",
     "./package.json": "./package.json"
   },
-  "main": "dist/preset.cjs",
+  "main": "./dist/index.cjs",
   "files": [
     "dist/**/*",
+    "preset.cjs",
     "src/**/*",
     "README.md"
   ],
