@@ -27,15 +27,13 @@
       "require": "./dist/index.cjs",
       "import": "./dist/index.js"
     },
-    "./preset": {
-      "require": "./dist/preset.cjs",
-      "import": "./dist/preset.js"
-    },
+    "./preset": "./dist/preset.cjs",
     "./package.json": "./package.json"
   },
-  "main": "dist/preset.js",
+  "main": "./dist/index.cjs",
   "files": [
     "dist/**/*",
+    "preset.js",
     "src/**/*",
     "README.md"
   ],
@@ -55,13 +53,15 @@
     ]
   },
   "dependencies": {
-    "@storybook/core-common": "next",
     "@swc/core": "^1.3.102",
     "swc-loader": "^0.2.3"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.4.1",
-    "@storybook/types": "next",
+    "@storybook/manager": "^8.0.0-rc.3",
+    "@storybook/preview": "8.0.0-rc.3",
+    "@storybook/core-common": "8.0.0-rc.3",
+    "@storybook/types": "8.0.0-rc.3",
     "auto": "^11.1.1",
     "tsup": "^8.0.1",
     "typescript": "^5.3.3",
@@ -74,6 +74,14 @@
   "auto": {
     "plugins": [
       "npm"
+    ]
+  },
+  "bundler": {
+    "exportEntries": [
+      "src/index.ts"
+    ],
+    "nodeEntries": [
+      "src/preset.ts"
     ]
   }
 }
