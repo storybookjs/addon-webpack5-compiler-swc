@@ -1,3 +1,16 @@
+# v1.0.3 (Wed May 29 2024)
+
+#### 🐛 Bug Fix
+
+- Pin `@swc/core` to v1.5.7 [#5](https://github.com/storybookjs/addon-webpack5-compiler-swc/pull/5) ([@shilman](https://github.com/shilman) [@valentinpalkovic](https://github.com/valentinpalkovic))
+
+#### Authors: 2
+
+- Michael Shilman ([@shilman](https://github.com/shilman))
+- Valentin Palkovic ([@valentinpalkovic](https://github.com/valentinpalkovic))
+
+---
+
 # v1.0.2 (Mon Mar 11 2024)
 
 #### 🐛 Bug Fix
