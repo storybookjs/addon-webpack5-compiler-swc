@@ -1,3 +1,15 @@
+# v1.0.4 (Thu Jun 20 2024)
+
+#### 🐛 Bug Fix
+
+- Set env.bugfixes by default [#6](https://github.com/storybookjs/addon-webpack5-compiler-swc/pull/6) ([@kasperpeulen](https://github.com/kasperpeulen))
+
+#### Authors: 1
+
+- Kasper Peulen ([@kasperpeulen](https://github.com/kasperpeulen))
+
+---
+
 # v1.0.3 (Wed May 29 2024)
 
 #### 🐛 Bug Fix
