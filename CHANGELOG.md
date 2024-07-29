@@ -1,3 +1,15 @@
+# v1.0.5 (Mon Jul 29 2024)
+
+#### 🐛 Bug Fix
+
+- fix: unpin `@swc/core` [#8](https://github.com/storybookjs/addon-webpack5-compiler-swc/pull/8) ([@SevereCloud](https://github.com/SevereCloud))
+
+#### Authors: 1
+
+- Daniil Suvorov ([@SevereCloud](https://github.com/SevereCloud))
+
+---
+
 # v1.0.4 (Thu Jun 20 2024)
 
 #### 🐛 Bug Fix
