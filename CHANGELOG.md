@@ -1,3 +1,15 @@
+# v2.0.0 (Mon Dec 30 2024)
+
+#### 💥 Breaking Change
+
+- fix: streamline SWC options handling in webpackFinal [#13](https://github.com/storybookjs/addon-webpack5-compiler-swc/pull/13) ([@valentinpalkovic](https://github.com/valentinpalkovic))
+
+#### Authors: 1
+
+- Valentin Palkovic ([@valentinpalkovic](https://github.com/valentinpalkovic))
+
+---
+
 # v1.0.6 (Mon Dec 30 2024)
 
 #### 🐛 Bug Fix
