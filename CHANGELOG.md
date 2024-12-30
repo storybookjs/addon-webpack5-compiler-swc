@@ -1,3 +1,15 @@
+# v1.0.6 (Mon Dec 30 2024)
+
+#### 🐛 Bug Fix
+
+- fix: preset.js is esm (node 22.12.0) [#11](https://github.com/storybookjs/addon-webpack5-compiler-swc/pull/11) ([@SevereCloud](https://github.com/SevereCloud))
+
+#### Authors: 1
+
+- Daniil Suvorov ([@SevereCloud](https://github.com/SevereCloud))
+
+---
+
 # v1.0.5 (Mon Jul 29 2024)
 
 #### 🐛 Bug Fix
