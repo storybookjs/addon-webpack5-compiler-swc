@@ -9,31 +9,33 @@ const virtualModuleFiles = [
 ];
 
 export const webpackFinal = async (config: Configuration, options: Options) => {
-  const swcOptions = await options.presets.apply("swc", {}, options);
-  const typescriptOptions = await options.presets.apply(
-    "typescript",
-    {},
-    options,
-  );
-
-  const swcFinalOptions: SwcOptions = {
-    ...swcOptions,
+  const swcDefaultOptions: SwcOptions = {
     env: {
-      ...(swcOptions?.env ?? {}),
       // Transpiles the broken syntax to the closest non-broken modern syntax.
       // E.g. it won't transpile parameter destructuring in Safari
       // which would break how we detect if the mount context property is used in the play function.
-      bugfixes: swcOptions?.env?.bugfixes ?? true,
+      bugfixes: true,
     },
     jsc: {
-      ...(swcOptions.jsc ?? {}),
-      parser: swcOptions.jsc?.parser ?? {
+      parser: {
         syntax: "typescript",
         tsx: true,
         dynamicImport: true,
       },
     },
   };
+
+  const swcOptions = await options.presets.apply(
+    "swc",
+    swcDefaultOptions,
+    options,
+  );
+
+  const typescriptOptions = await options.presets.apply(
+    "typescript",
+    {},
+    options,
+  );
 
   config.module = {
     ...(config.module || {}),
@@ -46,7 +48,7 @@ export const webpackFinal = async (config: Configuration, options: Options) => {
         use: [
           {
             loader: require.resolve("swc-loader"),
-            options: swcFinalOptions,
+            options: swcOptions,
           },
         ],
         include: [getProjectRoot()],
