@@ -1,3 +1,20 @@
+# v2.1.0 (Wed Feb 12 2025)
+
+#### 🚀 Enhancement
+
+- Updating swc and storybook deps to fix punycode module deprecation warning [#15](https://github.com/storybookjs/addon-webpack5-compiler-swc/pull/15) ([@skitscha](https://github.com/skitscha))
+
+#### 🐛 Bug Fix
+
+- minor: update lock file [#16](https://github.com/storybookjs/addon-webpack5-compiler-swc/pull/16) ([@valentinpalkovic](https://github.com/valentinpalkovic))
+
+#### Authors: 2
+
+- [@skitscha](https://github.com/skitscha)
+- Valentin Palkovic ([@valentinpalkovic](https://github.com/valentinpalkovic))
+
+---
+
 # v2.0.0 (Mon Dec 30 2024)
 
 #### 💥 Breaking Change
