@@ -1,3 +1,15 @@
+# v3.0.0 (Fri Mar 14 2025)
+
+#### 💥 Breaking Change
+
+- Configure React automatic runtime in JSC transform [#18](https://github.com/storybookjs/addon-webpack5-compiler-swc/pull/18) ([@kasperpeulen](https://github.com/kasperpeulen))
+
+#### Authors: 1
+
+- Kasper Peulen ([@kasperpeulen](https://github.com/kasperpeulen))
+
+---
+
 # v2.1.0 (Wed Feb 12 2025)
 
 #### 🚀 Enhancement
