@@ -17,6 +17,11 @@ export const webpackFinal = async (config: Configuration, options: Options) => {
       bugfixes: true,
     },
     jsc: {
+      transform: {
+        react: {
+          runtime: "automatic",
+        },
+      },
       parser: {
         syntax: "typescript",
         tsx: true,
