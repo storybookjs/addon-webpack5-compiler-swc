@@ -1,5 +1,5 @@
-import { getProjectRoot } from "@storybook/core-common";
-import type { Options } from "@storybook/types";
+import { getProjectRoot } from "storybook/internal/common";
+import type { Options } from "storybook/internal/types";
 import type { Options as SwcOptions } from "@swc/core";
 import type { Configuration } from "webpack";
 
