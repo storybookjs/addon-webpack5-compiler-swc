@@ -1,9 +1,9 @@
-import path from "node:path";
 import fs from "node:fs";
+import path from "node:path";
 
+import type { Options as SwcOptions } from "@swc/core";
 import { getProjectRoot } from "storybook/internal/common";
 import type { Options } from "storybook/internal/types";
-import type { Options as SwcOptions } from "@swc/core";
 import type { Configuration } from "webpack";
 
 const virtualModuleFiles = [
