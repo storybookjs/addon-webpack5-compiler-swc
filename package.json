@@ -53,16 +53,16 @@
     ]
   },
   "dependencies": {
-    "@swc/core": "^1.13.3",
+    "@swc/core": "^1.13.5",
     "swc-loader": "^0.2.6"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
     "auto": "^11.3.0",
+    "storybook": "^9.1.3",
     "tsup": "^8.5.0",
-    "storybook": "^9.1.0",
     "typescript": "^5.9.2",
-    "webpack": "^5.101.2"
+    "webpack": "^5.101.3"
   },
   "peerDependencies": {
     "storybook": "^9.0.0"
