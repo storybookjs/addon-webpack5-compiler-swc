@@ -1,11 +1,12 @@
 import { defineConfig, type Options } from "tsup";
 import { readFile } from "fs/promises";
-import { globalPackages as globalManagerPackages } from "@storybook/manager/globals";
-import { globalPackages as globalPreviewPackages } from "@storybook/preview/globals";
+import { globalPackages as globalManagerPackages } from "storybook/internal/manager/globals";
+import { globalPackages as globalPreviewPackages } from "storybook/internal/preview/globals";
 
-// The current browsers supported by Storybook v7
-const BROWSER_TARGET: Options['target'] = ["chrome100", "safari15", "firefox91"];
-const NODE_TARGET: Options['target'] = ["node18"];
+import {
+  BROWSER_TARGETS,
+  NODE_TARGET,
+} from "storybook/internal/builder-manager";
 
 type BundlerConfig = {
   bundler?: {
@@ -42,7 +43,9 @@ export default defineConfig(async (options) => {
     minify: !options.watch,
     treeshake: true,
     sourcemap: true,
-    clean: true,
+    // keep this line commented until https://github.com/egoist/tsup/issues/1270 is resolved
+    // clean: true,
+    clean: false,
   };
 
   const configs: Options[] = [];
@@ -58,8 +61,8 @@ export default defineConfig(async (options) => {
         resolve: true,
       },
       format: ["esm", "cjs"],
-      target: [...BROWSER_TARGET, ...NODE_TARGET],
       platform: "neutral",
+      target: NODE_TARGET,
       external: [...globalManagerPackages, ...globalPreviewPackages],
     });
   }
@@ -72,8 +75,8 @@ export default defineConfig(async (options) => {
       ...commonConfig,
       entry: managerEntries,
       format: ["esm"],
-      target: BROWSER_TARGET,
       platform: "browser",
+      target: BROWSER_TARGETS,
       external: globalManagerPackages,
     });
   }
@@ -89,8 +92,8 @@ export default defineConfig(async (options) => {
         resolve: true,
       },
       format: ["esm"],
-      target: BROWSER_TARGET,
       platform: "browser",
+      target: BROWSER_TARGETS,
       external: globalPreviewPackages,
     });
   }
