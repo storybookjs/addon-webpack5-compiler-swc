@@ -1,3 +1,15 @@
+# v4.0.0 (Tue Sep 02 2025)
+
+#### 💥 Breaking Change
+
+- Storybook 9 and custom swcrc support [#19](https://github.com/storybookjs/addon-webpack5-compiler-swc/pull/19) ([@Sidnioulz](https://github.com/Sidnioulz))
+
+#### Authors: 1
+
+- Steve Dodier-Lazaro ([@Sidnioulz](https://github.com/Sidnioulz))
+
+---
+
 # v3.0.0 (Fri Mar 14 2025)
 
 #### 💥 Breaking Change
