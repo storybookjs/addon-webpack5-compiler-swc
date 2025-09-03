@@ -1,6 +1,6 @@
 {
   "name": "@storybook/addon-webpack5-compiler-swc",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "type": "module",
   "description": "Adds SWC as a Webpack5 compiler to Storybook",
   "keywords": [
