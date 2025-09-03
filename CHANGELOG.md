@@ -1,3 +1,15 @@
+# v4.0.1 (Wed Sep 03 2025)
+
+#### 🐛 Bug Fix
+
+- Update storybook peer dependency version range [#21](https://github.com/storybookjs/addon-webpack5-compiler-swc/pull/21) ([@ndelangen](https://github.com/ndelangen))
+
+#### Authors: 1
+
+- Norbert de Langen ([@ndelangen](https://github.com/ndelangen))
+
+---
+
 # v4.0.0 (Tue Sep 02 2025)
 
 #### 💥 Breaking Change
