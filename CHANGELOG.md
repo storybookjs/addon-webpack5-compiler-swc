@@ -1,3 +1,15 @@
+# v4.0.2 (Mon Nov 10 2025)
+
+#### 🐛 Bug Fix
+
+- Update `storybook` version range to include prereleases [#23](https://github.com/storybookjs/addon-webpack5-compiler-swc/pull/23) ([@ndelangen](https://github.com/ndelangen))
+
+#### Authors: 1
+
+- Norbert de Langen ([@ndelangen](https://github.com/ndelangen))
+
+---
+
 # v4.0.1 (Wed Sep 03 2025)
 
 #### 🐛 Bug Fix
