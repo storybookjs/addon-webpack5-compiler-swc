@@ -39,7 +39,9 @@
   ],
   "license": "MIT",
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://registry.npmjs.org/",
+    "provenance": true
   },
   "storybook": {
     "displayName": "Addon Webpack5 Compiler SWC",
@@ -65,7 +67,7 @@
     "webpack": "^5.101.3"
   },
   "peerDependencies": {
-    "storybook": "^9.0.0 || ^10.0.0-0 || ^10.1.0-0 || ^10.2.0-0 || ^10.3.0-0"
+    "storybook": "^9.0.0 || ^10.0.0-0 || ^10.1.0-0 || ^10.2.0-0 || ^10.3.0-0 || ^10.4.0-0"
   },
   "engines": {
     "node": ">=18"
