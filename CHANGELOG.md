@@ -1,3 +1,15 @@
+# v4.0.3 (Wed Mar 25 2026)
+
+#### 🐛 Bug Fix
+
+- Merge pull request #24 from storybookjs/10-3-release [#24](https://github.com/storybookjs/addon-webpack5-compiler-swc/pull/24) ([@Sidnioulz](https://github.com/Sidnioulz))
+
+#### Authors: 1
+
+- Steve Dodier-Lazaro ([@Sidnioulz](https://github.com/Sidnioulz))
+
+---
+
 # v4.0.2 (Mon Nov 10 2025)
 
 #### 🐛 Bug Fix
