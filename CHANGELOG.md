@@ -1,4 +1,6 @@
-# v4.0.3 (Wed Mar 25 2026)
+# @storybook/addon-webpack5-compiler-swc
+
+## v4.0.3 (Wed Mar 25 2026)
 
 #### 🐛 Bug Fix
 
@@ -10,7 +12,7 @@
 
 ---
 
-# v4.0.2 (Mon Nov 10 2025)
+## v4.0.2 (Mon Nov 10 2025)
 
 #### 🐛 Bug Fix
 
@@ -22,7 +24,7 @@
 
 ---
 
-# v4.0.1 (Wed Sep 03 2025)
+## v4.0.1 (Wed Sep 03 2025)
 
 #### 🐛 Bug Fix
 
@@ -34,7 +36,7 @@
 
 ---
 
-# v4.0.0 (Tue Sep 02 2025)
+## v4.0.0 (Tue Sep 02 2025)
 
 #### 💥 Breaking Change
 
@@ -46,7 +48,7 @@
 
 ---
 
-# v3.0.0 (Fri Mar 14 2025)
+## v3.0.0 (Fri Mar 14 2025)
 
 #### 💥 Breaking Change
 
@@ -58,7 +60,7 @@
 
 ---
 
-# v2.1.0 (Wed Feb 12 2025)
+## v2.1.0 (Wed Feb 12 2025)
 
 #### 🚀 Enhancement
 
@@ -75,7 +77,7 @@
 
 ---
 
-# v2.0.0 (Mon Dec 30 2024)
+## v2.0.0 (Mon Dec 30 2024)
 
 #### 💥 Breaking Change
 
@@ -87,7 +89,7 @@
 
 ---
 
-# v1.0.6 (Mon Dec 30 2024)
+## v1.0.6 (Mon Dec 30 2024)
 
 #### 🐛 Bug Fix
 
@@ -99,7 +101,7 @@
 
 ---
 
-# v1.0.5 (Mon Jul 29 2024)
+## v1.0.5 (Mon Jul 29 2024)
 
 #### 🐛 Bug Fix
 
@@ -111,7 +113,7 @@
 
 ---
 
-# v1.0.4 (Thu Jun 20 2024)
+## v1.0.4 (Thu Jun 20 2024)
 
 #### 🐛 Bug Fix
 
@@ -123,7 +125,7 @@
 
 ---
 
-# v1.0.3 (Wed May 29 2024)
+## v1.0.3 (Wed May 29 2024)
 
 #### 🐛 Bug Fix
 
@@ -136,7 +138,7 @@
 
 ---
 
-# v1.0.2 (Mon Mar 11 2024)
+## v1.0.2 (Mon Mar 11 2024)
 
 #### 🐛 Bug Fix
 
@@ -149,7 +151,7 @@
 
 ---
 
-# v1.0.1 (Tue Feb 27 2024)
+## v1.0.1 (Tue Feb 27 2024)
 
 #### 🐛 Bug Fix
 
@@ -161,7 +163,7 @@
 
 ---
 
-# v1.0.0 (Thu Jan 04 2024)
+## v1.0.0 (Thu Jan 04 2024)
 
 #### 💥 Breaking Change
 
