@@ -1,5 +1,13 @@
 # @storybook/addon-webpack5-compiler-swc
 
+## 4.0.4
+
+### Patch Changes
+
+- [#25](https://github.com/storybookjs/addon-webpack5-compiler-swc/pull/25) [`3d64e2b`](https://github.com/storybookjs/addon-webpack5-compiler-swc/commit/3d64e2bf92eae064f528ce5e45bdd4ad159ee6a4) Thanks [@JReinhold](https://github.com/JReinhold)! - Add npm provenance and support Storybook canary releases
+
+- [#27](https://github.com/storybookjs/addon-webpack5-compiler-swc/pull/27) [`aee5264`](https://github.com/storybookjs/addon-webpack5-compiler-swc/commit/aee52645115d4278156f7b3806215371c10af3d7) Thanks [@valentinpalkovic](https://github.com/valentinpalkovic)! - Widen peer-deps range for Storybook
+
 ## v4.0.3 (Wed Mar 25 2026)
 
 #### 🐛 Bug Fix
