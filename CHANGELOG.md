@@ -1,5 +1,11 @@
 # @storybook/addon-webpack5-compiler-swc
 
+## 4.0.5
+
+### Patch Changes
+
+- [#31](https://github.com/storybookjs/addon-webpack5-compiler-swc/pull/31) [`a771668`](https://github.com/storybookjs/addon-webpack5-compiler-swc/commit/a7716686aab842058877a1a999dee2656e8cfab4) Thanks [@JReinhold](https://github.com/JReinhold)! - Widen peer-deps range for Storybook to include 11.0 canaries
+
 ## 4.0.4
 
 ### Patch Changes
