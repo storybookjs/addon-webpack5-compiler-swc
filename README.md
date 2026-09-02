@@ -10,4 +10,4 @@ npx storybook@latest add @storybook/addon-webpack5-compiler-swc
 
 ## Configuration
 
-Please go to https://storybook.js.org/docs/api/main-config-swc for more information about how to configure SWC.
+Please go to https://storybook.js.org/docs/api/main-config/main-config-swc for more information about how to configure SWC.
