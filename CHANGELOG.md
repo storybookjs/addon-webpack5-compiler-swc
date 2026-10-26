@@ -1,5 +1,11 @@
 # @storybook/addon-webpack5-compiler-swc
 
+## 4.0.6
+
+### Patch Changes
+
+- [#29](https://github.com/storybookjs/addon-webpack5-compiler-swc/pull/29) [`3b5a11e`](https://github.com/storybookjs/addon-webpack5-compiler-swc/commit/3b5a11e1fd9cabb7142c6aa8537a76df85972995) Thanks [@Lovlace777](https://github.com/Lovlace777)! - Fix the SWC configuration documentation link in the README.
+
 ## 4.0.5
 
 ### Patch Changes
